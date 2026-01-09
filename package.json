@@ -1,0 +1,11 @@
+{
+  "name": "full-stack-library",
+  "workspaces": [
+    "angular-frontend",
+    "spring-boot-backend"
+  ],
+  "scripts": {
+    "start:frontend": "cd angular-frontend && npm start",
+    "start:backend": "cd spring-boot-backend && .\\mvnw.cmd spring-boot:run"
+  }
+}

@@ -1,0 +1,19 @@
+### Global ### 
+.DS_Store
+Thumbs.db
+
+
+### Angular Frontend ###
+angular-frontend/.angular
+angular-frontend/.vscode
+angular-frontend/node_modules
+angular-frontend/.editorconfig
+
+
+
+### Spring Boot Backend ###
+spring-boot-backend/.idea
+spring-boot-backend/target
+spring-boot-backend/.env
+spring-boot-backend/.mvn/wrapper/maven-wrapper.jar
+spring-boot-backend/build
