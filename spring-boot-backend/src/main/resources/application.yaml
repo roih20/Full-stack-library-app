@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: library
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+security:
+  jwt:
+    secret-key: 06a0023b554b17d7fd0e72813931c223054ef4e5fcc357af0640c9d89de04010

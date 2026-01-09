@@ -1,0 +1,53 @@
+9780547928227,The Hobbit,J.R.R. Tolkien,false
+9780061120084,To Kill a Mockingbird,Harper Lee,false
+9780743273565,The Great Gatsby,F. Scott Fitzgerald,false
+9780451524935,1984,George Orwell,false
+9780062498523,The Alchemist,Paulo Coelho,false
+9780743273572,The Catcher in the Rye,J.D. Salinger,false
+9780345339683,The Hitchhiker's Guide to the Galaxy,Douglas Adams,false
+9780345391803,Dune,Frank Herbert,false
+9780060935467,One Hundred Years of Solitude,Gabriel García Márquez,false
+9780307474278,Gone Girl,Gillian Flynn,false
+9780307386410,The Girl with the Dragon Tattoo,Stieg Larsson,false
+9780307277763,The Road,Cormac McCarthy,false
+9780060850234,The Bell Jar,Sylvia Plath,false
+9780064404987,The Lion, the Witch, and the Wardrobe,C.S. Lewis,false
+9780316769174,The Little Prince,Antoine de Saint-Exupéry,false
+9780395061619,Slaughterhouse-Five,Kurt Vonnegut,false
+9780345803503,Fahrenheit 451,Ray Bradbury,false
+9780385504201,The Da Vinci Code,Dan Brown,false
+9780385732551,The Outsiders,S.E. Hinton,false
+9780345348005,Interview with the Vampire,Anne Rice,false
+9780345453747,A Game of Thrones,George R.R. Martin,false
+9780553213101,Wuthering Heights,Emily Brontë,false
+9780486280485,Frankenstein,Mary Shelley,false
+9780140449339,Moby Dick,Herman Melville,false
+9780451526342,A Tale of Two Cities,Charles Dickens,false
+9780141439518,Pride and Prejudice,Jane Austen,false
+9780486419793,Dracula,Bram Stoker,false
+9780061148583,Where the Sidewalk Ends,Shel Silverstein,false
+9780060850524,A Wrinkle in Time,Madeleine L'Engle,false
+9780064400552,Charlotte's Web,E.B. White,false
+9780553382562,Wild Swans: Three Daughters of China,Jung Chang,false
+9780385484510,Beloved,Toni Morrison,false
+9780385333849,The Joy Luck Club,Amy Tan,false
+9780143126563,Between the World and Me,Ta-Nehisi Coates,true
+9780385484503,The Handmaid's Tale,Margaret Atwood,true
+9780547345329,The Giver,Lois Lowry,true
+9780375704988,Middlesex,Jeffrey Eugenides,true
+9780307387431,A Thousand Splendid Suns,Khaled Hosseini,true
+9780385504201,Angels & Demons,Dan Brown,true
+9780061122415,The Poisonwood Bible,Barbara Kingsolver,true
+9780060512804,The Secret Life of Bees,Sue Monk Kidd,true
+9780312384191,The Help,Kathryn Stockett,true
+9780061124952,The Kite Runner,Khaled Hosseini,true
+9780316015844,The Lovely Bones,Alice Sebold,true
+9780307277671,Water for Elephants,Sara Gruen,true
+9780440237924,The Color Purple,Alice Walker,true
+9780312423449,Life of Pi,Yann Martel,true
+9780553381695,Catch-22,Joseph Heller,true
+9780385490818,The Secret History,Donna Tartt,true
+9780143034998,Zen and the Art of Motorcycle Maintenance,Robert M. Pirsig,true
+9781276852741,The Witcher,Harper Lee,true
+9780141439518,Sense and Sensibility,Jane Austen,false
+9780140432349,Lady Susan,Jane Austen,false
