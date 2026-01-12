@@ -8,7 +8,7 @@ import { BookResponse, Book, BorrowResponse, ReturnBookResponse } from '@app/typ
   providedIn: 'root',
 })
 export class BookService {
-  private readonly API_URL = 'http://localhost:8080/books';
+  private readonly API_URL = 'https://spring-library-api.up.railway.app/books';
   private http = inject(HttpClient);
 
   getBooks(pageSize: number, currentPage: number, sortBy: string): Observable<BookResponse> {

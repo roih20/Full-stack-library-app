@@ -12,7 +12,7 @@ import { LoaderIcon } from '@app/icons/loader-icon';
       type="button"
       (click)="returnBook()"
       [disabled]="isLoading()"
-      class="bg-orange-500 text-white font-medium p-2 mt-4 cursor-pointer hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed"
+      class="bg-orange-500 text-white font-medium p-2 mt-4 cursor-pointer rounded-md hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed"
     >
       @if (isLoading()) {
         <div class="flex items-center">

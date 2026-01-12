@@ -8,5 +8,5 @@ import { Navbar } from './ui-components/navbar';
   imports: [RouterOutlet],
 })
 export class App {
-  protected readonly title = signal('angular-21-tutorial');
+  protected readonly title = signal('Full-stack-library');
 }

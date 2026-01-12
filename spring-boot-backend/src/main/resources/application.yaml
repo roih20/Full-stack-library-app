@@ -17,3 +17,5 @@ spring:
 security:
   jwt:
     secret-key: 06a0023b554b17d7fd0e72813931c223054ef4e5fcc357af0640c9d89de04010
+server:
+  port: ${PORT:8080}

@@ -11,7 +11,7 @@ import { HttpErrorResponse } from '@angular/common/http';
     <button
       (click)="borrowBook()"
       [disabled]="isLoading()"
-      class="mt-2 bg-orange-500 px-2 py-1.5 rounded-sm font-medium text-white hover:bg-orange-600 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+      class="mt-2 bg-orange-500 px-2 py-1.5 rounded-md font-medium text-white hover:bg-orange-600 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
     >
       @if (isLoading()) {
         <div class="flex items-center">

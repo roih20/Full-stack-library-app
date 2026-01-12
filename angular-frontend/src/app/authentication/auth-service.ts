@@ -9,7 +9,7 @@ import { DecodeToken, LoginResponse } from '@app/types/types';
 })
 export class AuthService {
   private http = inject(HttpClient);
-  private readonly API_URL = 'http://localhost:8080/auth';
+  private readonly API_URL = 'https://spring-library-api.up.railway.app/auth';
   name = signal<string | undefined>('');
   sub = signal<string | undefined>('');
   role = signal<string | undefined>('');

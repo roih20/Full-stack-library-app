@@ -6,13 +6,19 @@ import { BorrowedBooksList } from '@app/books/borrowed-books-list';
 import { Pagination } from '@app/ui-components/pagination';
 import { ToastMessage } from '@app/ui-components/toast-message';
 import { LogoutIcon } from '@app/icons/logout-icon';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
+import { BorrowedBooksListSkeleton } from '@app/skeletons/borrowed-books-list-skeleton';
 
 @Component({
   selector: 'profile-page',
   template: `
     <main class="my-18 mx-auto p-4 max-w-5xl">
-      <div class="flex items-center">
+      <a
+        class="p-2 inline-block hover:underline hover:font-medium cursor-pointer text-lg"
+        routerLink="/"
+        >Home</a
+      >
+      <div class="flex items-center mt-2">
         <p class="text-xl p-2">{{ name }}</p>
         <span class="mx-1"> | </span>
         <button
@@ -41,7 +47,7 @@ import { Router } from '@angular/router';
       }
       <!-- Implement borrow history component-->
       @if (isLoading()) {
-        <p>Loading borrow history...</p>
+        <borrowed-books-list-skeleton />
       } @else {
         <borrowed-books-list
           [borrowedBooks]="books()"
@@ -56,7 +62,14 @@ import { Router } from '@angular/router';
       />
     </main>
   `,
-  imports: [BorrowedBooksList, Pagination, ToastMessage, LogoutIcon],
+  imports: [
+    BorrowedBooksList,
+    Pagination,
+    ToastMessage,
+    LogoutIcon,
+    BorrowedBooksListSkeleton,
+    RouterLink,
+  ],
 })
 export class ProfilePage implements OnInit {
   private authService = inject(AuthService);

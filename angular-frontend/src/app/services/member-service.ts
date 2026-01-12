@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class MemberService {
-  private readonly API_URL = 'http://localhost:8080/members';
+  private readonly API_URL = 'https://spring-library-api.up.railway.app/members';
   private http = inject(HttpClient);
 
   getBorrowedHistory(pageSize: number, currentPage: number): Observable<BorrowedBookResponse> {
