@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "start:frontend": "cd angular-frontend && npm start",
+    "build:frontend": "cd angular-frontend && npm build",
     "start:backend": "cd spring-boot-backend && .\\mvnw.cmd spring-boot:run"
   }
 }
